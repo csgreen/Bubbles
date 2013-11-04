@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(20, 50, 200, 200)];
+    [self.layer setCornerRadius:8.0f];
+    [self.layer setMasksToBounds:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
